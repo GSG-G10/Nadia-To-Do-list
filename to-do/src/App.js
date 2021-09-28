@@ -9,7 +9,7 @@ import Colaps from "./components/Colaps";
 
 function App() {
   const { Header, Content, Footer } = Layout;
-const [tasks ,setTasks] = useState(["nadia"]);
+const [tasks ,setTasks] = useState([]);
   return (
     <Layout className="layout">
       <Header>

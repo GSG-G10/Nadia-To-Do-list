@@ -5,7 +5,7 @@ import { Input, Space } from 'antd';
 const Todoform = (props) => {
   const { Search } = Input;
 
- const {tasks,setTasks} = props; 
+ const {setTasks} = props; 
 
   const onSearch = (value) => {
   setTasks(prevTasks => [...prevTasks, value])
